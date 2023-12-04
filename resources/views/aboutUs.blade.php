@@ -135,28 +135,29 @@
           </div>
         </nav>
       </header>
-      <section id="intro">
+
+      <section id="intro2">
         <div class="image-holder position-relative">
-          <img src="images/banner-item1.jpg" alt="banner" style="opacity: 90%;" class="banner-image">
+          <img src="images/banner-item2.jpg" alt="banner" class="banner-image">
         </div>
         <div class="container-lg">
           <div class="banner-content position-absolute" style="align-items: center;" data-aos="fade-up" >
-            <h1 class="banner-title light text-uppercase fw-bold" style="text-align: center;">Your Path<br>Our Guidance</h1>
-            <a href="project.html" class="btn-slide btn-medium btn-light hover-slide-right text-uppercase mt-5">
-              <span>Study Abroad</span>
-            </a>
-            <a href="project.html"  class="btn-slide btn-medium btn-light hover-slide-right text-uppercase mt-5">
-              <span>Test Preperation</span>
-            </a>
-            <a href="project.html"  class="btn-slide btn-medium btn-light hover-slide-right text-uppercase mt-5">
-              <span>Career Counseling</span>
-            </a>
-            <a href="project.html"  class="btn-slide btn-medium btn-light hover-slide-right text-uppercase mt-5">
-              <span>Courses</span>
-            </a>
+            <h1 class="banner-title light text-uppercase fw-bold" style="text-align: center;">About Us</h1>
+            <div class="col-lg-12" style="text-align: center;">
+              <p>
+                <strong class="pb-2 d-block " >
+                  Welcome to Edulife Educational Consultancy,</strong>
+                  Your gateway to academic success! We specialize in personalized test preparation 
+                  (IELTS, PTE, TOEFL, SAT), career consulting, and university placement services. 
+                  Our mission is to guide you toward your dream education in countries like the USA,
+                  UK, New Zealand, Australia, Canada, India, and Bangladesh.
+                  Join us on this transformative journey!
+              </p>
+            </div>
           </div>
         </div>
       </section>
+      
       <section id="about" class="padding-large bg-gray-200">
         <div class="container" data-aos="fade-up" data-aos-duration="2000">
           <div class="row">
@@ -183,183 +184,6 @@
         </div>
       </section>
 
-      <section id="latest-blog" class="padding-large">
-        <div class="container" data-aos="fade-up" data-aos-duration="2000">
-          <div class="row">
-            <div class="section-header text-uppercase">
-              <h2 class="left-pattern">EduLife Education</h2>
-              <h3>Our Services</h3>
-            </div>
-            <div class="post-grid d-flex flex-wrap justify-content-center mt-5">
-              <div class="col-lg-4 col-md-6 mb-3">
-                <div class="card-item position-relative">
-                  <div class="card border-0">
-                    <div class="card-image">
-                      <img src="images/post-item1.jpg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                  <div class="card-body p-3 position-absolute">
-                    <h3 class="card-title fs-3 text-uppercase mt-3 light">
-                      <a href="blog-single.html">Study Abroad</a>
-                    </h3>
-                    <p class="light">Embark on a global education journey with Edulife.
-                       We simplify study abroad, placing you in leading universities across the USA,
-                        UK, Australia, Canada, and more. Elevate your education effortlessly...<a href="blog-single.html" class="text-decoration-underline">
-                        <em>Read more</em>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 mb-3">
-                <div class="card-item position-relative">
-                  <div class="card border-0">
-                    <div class="card-image">
-                      <img src="images/post-item2.jpg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                  <div class="card-body p-3 position-absolute">
-                    <h3 class="card-title fs-3 text-uppercase mt-3 light">
-                      <a href="blog-single.html">Test Preperation</a>
-                    </h3>
-                    <p class="light">Ace exams with Edulife's Test Preparation. Elevate your scores in IELTS, PTE, TOEFL, and SAT with our personalized guidance. Master your tests, unlock opportunities...<a href="blog-single.html" class="text-decoration-underline">
-                        <em>Read more</em>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="card-item position-relative">
-                  <div class="card border-0">
-                    <div class="card-image">
-                      <img src="images/post-item3.jpg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                  <div class="card-body p-3 position-absolute">
-                    <h3 class="card-title fs-3 text-uppercase mt-3 light">
-                      <a href="blog-single.html">Career Counseling</a>
-                    </h3>
-                    <p class="light">Chart your career path with Edulife's Career Counseling. Gain insights, make informed decisions, and align your ambitions with expert guidance. Your journey to a fulfilling career starts here... <a href="blog-single.html" class="text-decoration-underline">
-                        <em>Read more</em>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      
-      <section id="brand-collection" class="padding-small overflow-hidden">
-        <div class="container" data-aos="fade-up" data-aos-duration="2000">
-          <div class="row justify-content-between">
-          <div class="section-header text-uppercase" style="margin-bottom: 10vh">
-              <h2 class="left-pattern">Study Abroad</h2>
-              <h3>Countries</h3>
-            </div>
-            <div class="col-lg-3 pb-3">
-              <div class="brand-item bg-gray-200">
-                <img src="images/brand-item1.png" alt="brand">
-              </div>
-            </div>
-            <div class="col-lg-3 pb-3">
-              <div class="brand-item bg-gray-200">
-                <img src="images/brand-item2.png" alt="brand">
-              </div>
-            </div>
-            <div class="col-lg-3 pb-3">
-              <div class="brand-item bg-gray-200">
-                <img src="images/brand-item3.png" alt="brand">
-              </div>
-            </div>
-            <div class="col-lg-3 pb-3">
-              <div class="brand-item bg-gray-200">
-                <img src="images/brand-item4.png" alt="brand">
-              </div>
-            </div>
-            <div class="col-lg-3 pb-3">
-              <div class="brand-item bg-gray-200">
-                <img src="images/brand-item5.png" alt="brand">
-              </div>
-            </div>
-            <div class="col-lg-3 pb-3">
-              <div class="brand-item bg-gray-200">
-                <img src="images/brand-item6.png" alt="brand">
-              </div>
-            </div>
-            <div class="col-lg-3 pb-3">
-              <div class="brand-item bg-gray-200">
-                <img src="images/brand-item7.png" alt="brand">
-              </div>
-            </div>
-            <div class="col-lg-3 pb-3">
-              <div class="brand-item bg-gray-200">
-                <a href="/"><img src="images/brand-item8.png" alt="brand">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="our-achievement" class="padding-large bg-gray-200">
-        <div class="container" data-aos="fade-up" data-aos-duration="2000">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-info text-center d-flex align-items-end">
-                <div class="counter-number d-flex align-items-center">
-                  <h4 class="timer fw-bold m-0" data-to="100" data-speed="1000">780</h4>
-                </div>
-                <p class="counter-description text-uppercase ps-2 fw-bold">Projects done</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-info text-center d-flex align-items-end">
-                <div class="counter-number d-flex align-items-center">
-                  <h4 class="timer fw-bold m-0" data-to="100" data-speed="1000">127</h4>
-                </div>
-                <p class="counter-description text-uppercase ps-2 fw-bold">Total members</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-info text-center d-flex align-items-end">
-                <div class="counter-number d-flex align-items-center">
-                  <h4 class="timer fw-bold m-0" data-to="100" data-speed="1000">627</h4>
-                </div>
-                <p class="counter-description text-uppercase ps-2 fw-bold">Happy customers</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-info text-center d-flex align-items-end">
-                <div class="counter-number d-flex align-items-center">
-                  <h4 class="timer fw-bold m-0" data-to="10" data-speed="1000">28</h4>
-                </div>
-                <p class="counter-description text-uppercase ps-2 fw-bold">Awards</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <section id="contact" class="jarallax d-flex align-items-center padding-large" style="background-image: url(images/bg-image3.jpg); width: 100%; height: 567px; background-repeat: no-repeat; background-position: center;">
-        <div class="container" data-aos="fade-up" data-aos-duration="2000">
-          <div class="row justify-content-center">
-            <div class="col-md-8">
-              <h3 class="light text-uppercase">Ready to take the Big Step?</h3>
-              <p class="light mt-4">If you have any concern regarding the process, connect with us at<strong>
-                  <a href="mailto:">rupam@edulife.edu.np</a>
-                </strong> or just call us at <strong>
-                  <a href="">+977 9841649592</a>
-                </strong>
-              </p>
-              <a href="mailto:rupam@edulife.edu.np" class="btn-slide btn-medium btn-light hover-slide-right text-uppercase mt-5">
-                <span>Connect With US</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
       <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">
