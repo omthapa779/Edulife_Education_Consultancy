@@ -1,0 +1,156 @@
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: #151414;
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:center;
+}
+.single-cta{
+  margin-top: 4vh;
+
+}
+.single-cta i {
+color: #ff9114;
+font-size: 30px;
+float:left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 10vw;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+    color: #7e7e7e;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40vh;
+width: 40vw;
+text-align: left;
+line-height: 38px;
+border-radius: 50%;
+font-size: 2rem;
+margin-left: 2vw;
+}
+@media (max-width: 699px) {
+  .footer-social-icon i {
+    margin-left: 6vw;
+  }
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #ff9114;
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #ff9114;
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #ff9114;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text h1 {
+font-size: 1rem;
+color: rgb(255, 255, 255);
+text-align: center;
+width: 90vw;
+}
+.copyright-text span {
+  color: rgb(173, 13, 13);
+}
+
+.copyright-text p a{
+color: #ff9114;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff9114;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
