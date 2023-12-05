@@ -788,6 +788,11 @@ a.text-hover:focus:after{
     margin-left: 1%;
   }
 }
+@media (max-width: 1399px) {
+ #image_holder_about{
+  margin-left: 13vw;
+ }
+}
 
 @media (max-width: 999px) {
   #intro .banner-content h1 {
@@ -1157,4 +1162,5 @@ reviews page style start
     color: var(--accent-color);
     transition: all 0.5s ease-in;
   }
+  
   

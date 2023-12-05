@@ -163,22 +163,27 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="section-header">
-                <h2 class="text-uppercase mb-3 left-pattern">About Us</h2>
-                <h3 class="text-uppercase">welcome to EduLife Education</h3>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <p>
-                <strong class="pb-2 d-block">
-                  Welcome to Edulife Educational Consultancy,</strong>
+                <h2 class="text-uppercase mb-7 left-pattern">Edulife Education</h2>
+                <h3 class="text-uppercase">Message From Founder</h3>
+                <p>
                   Your gateway to academic success! We specialize in personalized test preparation 
                   (IELTS, PTE, TOEFL, SAT), career consulting, and university placement services. 
                   Our mission is to guide you toward your dream education in countries like the USA,
                   UK, New Zealand, Australia, Canada, India, and Bangladesh. Join us on this transformative journey!
               </p>
-              <a href="/aboutUs" class="btn-slide btn-medium btn-dark hover-slide-right text-uppercase mt-5">
-                <span>Learn More About Us</span>
-              </a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <div class="col-lg-7 col-md-6 mb-3" id="image_holder_about">
+                <div class="card-item position-relative">
+                  <div class="card border-0">
+                    <div class="card-image">
+                      <img src="images/post-item2.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
