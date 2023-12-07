@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="contact_form.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="aos/aos.css">
     <link href="css/date-time-picker-component.min.css" rel="stylesheet">
@@ -142,53 +143,39 @@
         </div>
         <div class="container-lg">
           <div class="banner-content position-absolute" style="align-items: center;" data-aos="fade-up" >
-            <h1 class="banner-title light text-uppercase fw-bold" style="text-align: center;">About Us</h1>
-            <div class="col-lg-12" style="text-align: center;">
-              <p>
-                <strong class="pb-2 d-block " >
-                  Welcome to Edulife Educational Consultancy,</strong>
-                  Your gateway to academic success! We specialize in personalized test preparation 
-                  (IELTS, PTE, TOEFL, SAT), career consulting, and university placement services. 
-                  Our mission is to guide you toward your dream education in countries like the USA,
-                  UK, New Zealand, Australia, Canada, India, and Bangladesh.
-                  Join us on this transformative journey!
-              </p>
-            </div>
+            <form action="#" method="post"  style="margin-top: -10vh;">
+  <h1 style="text-transform: uppercase;">Contact Us</h1>
+  <p>Please take a moment to get in touch, we will get back to you shortly.</p>
+
+  <div class="column">
+    <label for="the-name">Your Name</label>
+    <input type="text" name="name" id="the-name">
+
+    <label for="the-email">Email Address</label>
+    <input type="email" name="email" id="the-email">
+
+    <label for="the-phone">Phone Number</label>
+    <input type="tel" name="phone" id="the-phone">
+
+    <label for="the-reason">What can we help you with?</label>
+    <select name="reason" id="the-reason">
+    <option value="">Choose one</option>
+    <option value="Study Abroad">Study Abroad</option>
+    <option value="Career Counseling">Career Counseling</option>
+    <option value="Test Preperation">Test Preperation</option>
+  </select>
+  </div>
+  <div class="column">
+    <label for="the-message">Message</label>
+    <textarea name="message" id="the-message"></textarea>
+    <input type="submit" value="Send Message">
+  </div>
+</form>
           </div>
         </div>
       </section>
       
-      <section id="about" class="padding-large bg-gray-200">
-        <div class="container" data-aos="fade-up" data-aos-duration="2000">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="section-header">
-                <h2 class="text-uppercase mb-7 left-pattern">Edulife Education</h2>
-                <h3 class="text-uppercase">Message From Founder</h3>
-                <p>
-                  Your gateway to academic success! We specialize in personalized test preparation 
-                  (IELTS, PTE, TOEFL, SAT), career consulting, and university placement services. 
-                  Our mission is to guide you toward your dream education in countries like the USA,
-                  UK, New Zealand, Australia, Canada, India, and Bangladesh. Join us on this transformative journey!
-              </p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-            <div class="col-lg-7 col-md-6 mb-3" id="image_holder_about">
-                <div class="card-item position-relative">
-                  <div class="card border-0">
-                    <div class="card-image">
-                      <img src="images/post-item2.jpg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">

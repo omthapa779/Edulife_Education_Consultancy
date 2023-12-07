@@ -18,5 +18,5 @@ Route::get('/', function () {return view('welcome');});
 
 //other pages
 Route::get('/aboutUs', [PagesController::class, 'aboutUs'])->name('aboutUs');
-
+Route::get('/contactus', [PagesController::class, 'contactus'])->name('contactus');
 

@@ -92,7 +92,7 @@
                     <a class="nav-link light text-uppercase p-0" href="#about">Announcement</a>
                   </li>
                   <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase p-0" href="#about">Contact Us</a>
+                    <a class="nav-link light text-uppercase p-0" href="/contactus">Contact Us</a>
                   </li>
                   <li class="nav-item me-5">
                     <a class="nav-link light text-uppercase p-0 fw-bold" href="/" target="_blank">SYSTEM</a>
@@ -425,7 +425,7 @@
                                 <li><a href="/aboutUs">About us</a></li>
                                 <li><a href="#">Study Abroad</a></li>
                                 <li><a href="#">Announcement</a></li>
-                                <li><a href="#">Contact US</a></li>
+                                <li><a href="/contactus">Contact US</a></li>
                                 <li><a href="#">System</a></li>
                                 <li><a href="#">Test Preperation</a></li>
                                 <li><a href="#">Career Counseling</a></li>
