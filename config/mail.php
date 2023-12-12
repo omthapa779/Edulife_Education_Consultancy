@@ -32,6 +32,23 @@ return [
     |            "postmark", "log", "array", "failover"
     |
     */
+    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
+    'port' => env('MAIL_PORT', 587),
+    'from' => [
+        'address' => env('MAIL_FROM_ADDRESS', 'omthapa781@gmail.com '),
+        'name' => env('MAIL_FROM_NAME', 'Om Thapa'),
+    ],
+    'encryption' => env('MAIL_ENCRYPTION', 'ssl'),
+    'username' => env('MAIL_USERNAME', 'omthapa781@gmail.com'),
+    'password' => env('MAIL_PASSWORD', 'O@@mth$$apa100$'),
+
+
+    'views' => [
+        'text' => 'emails.text',
+        'html' => 'emails.html',
+        'raw' => 'emails.raw',
+    ],
 
     'mailers' => [
         'smtp' => [
@@ -119,7 +136,7 @@ return [
         'theme' => 'default',
 
         'paths' => [
-            resource_path('views/vendor/mail'),
+            resource_path('views/emails'),
         ],
     ],
 

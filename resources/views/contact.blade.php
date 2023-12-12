@@ -56,7 +56,7 @@
         <nav id="header-nav" class="navbar navbar-expand-lg p-3 container-fluid position-fixed">
           <div class="container-lg">
             <a class="navbar-brand" href="/">
-              <img src="images/main-logo.png" class="logo" width="60vw" height="60vh">
+              <img src="images/main-logo.png" class="logo" width="200vw" height="60vh">
             </a>
             <button class="navbar-toggler d-flex d-lg-none order-3 p-2 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
               <svg class="navbar-icon">
@@ -89,14 +89,8 @@
                         <li class="text-decoration-none"><a href="about.html" class="dropdown-item text-uppercase ">Study in Bangladesh</a></li>
                     </ul>
                 </li>
-                <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase p-0" href="#about">Announcement</a>
-                  </li>
                   <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase p-0" href="/contactus">Contact Us</a>
-                  </li>
-                  <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase p-0 fw-bold" href="/" target="_blank">SYSTEM</a>
+                    <a class="nav-link light text-uppercase p-0" href="/contact">Contact Us</a>
                   </li>
                 </ul>
                 <div class="social-links d-flex mt-5 mt-lg-0  align-items-center justify-content-end">
@@ -143,31 +137,24 @@
         </div>
         <div class="container-lg">
           <div class="banner-content position-absolute" style="align-items: center;" data-aos="fade-up" >
-            <form action="#" method="post"  style="margin-top: -10vh;">
+  
+  
+  <form action="{{ route('contact') }}" method="post" style="margin-top: -10vh;">
+  @csrf
   <h1 style="text-transform: uppercase;">Contact Us</h1>
   <p>Please take a moment to get in touch, we will get back to you shortly.</p>
 
+  <div class="column">
+  <label for="the-message">Message</label>
+    <textarea name="message" id="the-message"></textarea>
+    </div>
   <div class="column">
     <label for="the-name">Your Name</label>
     <input type="text" name="name" id="the-name">
 
     <label for="the-email">Email Address</label>
     <input type="email" name="email" id="the-email">
-
-    <label for="the-phone">Phone Number</label>
-    <input type="tel" name="phone" id="the-phone">
-
-    <label for="the-reason">What can we help you with?</label>
-    <select name="reason" id="the-reason">
-    <option value="">Choose one</option>
-    <option value="Study Abroad">Study Abroad</option>
-    <option value="Career Counseling">Career Counseling</option>
-    <option value="Test Preperation">Test Preperation</option>
-  </select>
-  </div>
-  <div class="column">
-    <label for="the-message">Message</label>
-    <textarea name="message" id="the-message"></textarea>
+  
     <input type="submit" value="Send Message">
   </div>
 </form>
@@ -240,9 +227,7 @@
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/aboutUs">About us</a></li>
                                 <li><a href="#">Study Abroad</a></li>
-                                <li><a href="#">Announcement</a></li>
-                                <li><a href="/contactus">Contact US</a></li>
-                                <li><a href="#">System</a></li>
+                                <li><a href="/contact">Contact US</a></li>
                                 <li><a href="#">Test Preperation</a></li>
                                 <li><a href="#">Career Counseling</a></li>
                                 <li><a href="#">Courses</a></li>

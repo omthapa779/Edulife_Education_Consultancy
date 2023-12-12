@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +19,6 @@ Route::get('/', function () {return view('welcome');});
 
 //other pages
 Route::get('/aboutUs', [PagesController::class, 'aboutUs'])->name('aboutUs');
-Route::get('/contactus', [PagesController::class, 'contactus'])->name('contactus');
+Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+Route::post('/contact', [ContactController::class, 'sendContactForm'])->name('contact');
 

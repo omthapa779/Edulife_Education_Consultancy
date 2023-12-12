@@ -16,7 +16,7 @@ textarea{
 min-height:180px;
 }
 select{
-color:indigo;
+color:#520cd3;
 }
 option{
 color:blue;
@@ -29,7 +29,7 @@ color:red;
 }
 
 input[type=submit]{
-background:lightcoral;
+background:#520cd3;
 margin:1em 0 0;
 color:white;
 border:none;

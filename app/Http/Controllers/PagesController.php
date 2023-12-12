@@ -10,8 +10,8 @@ class PagesController extends Controller
     {
         return view('aboutUs');
     }
-    public function contactus()
+    public function contact()
     {
-        return view('contactus');
+        return view('contact');
     }
 }

@@ -55,7 +55,7 @@
         <nav id="header-nav" class="navbar navbar-expand-lg p-3 container-fluid position-fixed">
           <div class="container-lg">
             <a class="navbar-brand" href="/">
-              <img src="images/main-logo.png" class="logo" width="60vw" height="60vh">
+              <img src="images/main-logo.png" class="logo" width="200vw" height="60vh">
             </a>
             <button class="navbar-toggler d-flex d-lg-none order-3 p-2 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
               <svg class="navbar-icon">
@@ -69,7 +69,7 @@
               <div class="offcanvas-body">
                 <ul id="navbar" class="navbar-nav text-uppercase justify-content-lg-center justify-content-md-end align-items-center flex-grow-1  text-hover">
                   <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase active p-0" href="/">Home</a>
+                    <a class="nav-link light text-uppercase p-0" href="/">Home</a>
                   </li>
                   <li class="nav-item me-5">
                     <a class="nav-link light text-uppercase p-0" href="/aboutUs">About Us</a>
@@ -88,14 +88,8 @@
                         <li class="text-decoration-none"><a href="about.html" class="dropdown-item text-uppercase ">Study in Bangladesh</a></li>
                     </ul>
                 </li>
-                <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase p-0" href="#about">Announcement</a>
-                  </li>
                   <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase p-0" href="/contactus">Contact Us</a>
-                  </li>
-                  <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase p-0 fw-bold" href="/" target="_blank">SYSTEM</a>
+                    <a class="nav-link light text-uppercase p-0" href="/contact">Contact Us</a>
                   </li>
                 </ul>
                 <div class="social-links d-flex mt-5 mt-lg-0  align-items-center justify-content-end">
@@ -253,9 +247,7 @@
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/aboutUs">About us</a></li>
                                 <li><a href="#">Study Abroad</a></li>
-                                <li><a href="#">Announcement</a></li>
-                                <li><a href="/contactus">Contact US</a></li>
-                                <li><a href="#">System</a></li>
+                                <li><a href="/contact">Contact US</a></li>
                                 <li><a href="#">Test Preperation</a></li>
                                 <li><a href="#">Career Counseling</a></li>
                                 <li><a href="#">Courses</a></li>
