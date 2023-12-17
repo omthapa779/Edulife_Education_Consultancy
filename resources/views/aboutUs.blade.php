@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EduLife Education Consultancy | HOME</title>
+    <title>EduLife Education Consultancy | About Us</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,15 +78,13 @@
                     <a class="nav-link text-uppercase  dropdown-toggle py-0 pe-0 " data-bs-toggle="dropdown" href="#"
                         role="button" aria-expanded="false">Study Abroad<iconify-icon
                         icon="material-symbols:arrow-drop-down"></iconify-icon></a>
-                    <ul class="dropdown-menu">
-                        <li class="text-decoration-none"><a href="about.html" class="dropdown-item text-uppercase ">Study in UK</a></li>
-                        <li class="text-decoration-none"><a href="about.html" class="dropdown-item text-uppercase ">Study in Australia</a></li>
-                        <li class="text-decoration-none"><a href="about.html" class="dropdown-item text-uppercase ">Study in USA</a></li>
-                        <li class="text-decoration-none"><a href="about.html" class="dropdown-item text-uppercase ">Study in New Zealand</a></li>
-                        <li class="text-decoration-none"><a href="about.html" class="dropdown-item text-uppercase ">Study in Canada</a></li>
-                        <li class="text-decoration-none"><a href="about.html" class="dropdown-item text-uppercase ">Study in India</a></li>
-                        <li class="text-decoration-none"><a href="about.html" class="dropdown-item text-uppercase ">Study in Bangladesh</a></li>
-                    </ul>
+                        <ul class="dropdown-menu">
+                        <li class="text-decoration-none"><a href="/UK" class="dropdown-item text-uppercase ">Study in UK</a></li>
+                        <li class="text-decoration-none"><a href="/Australia" class="dropdown-item text-uppercase ">Study in Australia</a></li>
+                        <li class="text-decoration-none"><a href="/USA" class="dropdown-item text-uppercase ">Study in USA</a></li>
+                        <li class="text-decoration-none"><a href="/NewZealand" class="dropdown-item text-uppercase ">Study in New Zealand</a></li>
+                        <li class="text-decoration-none"><a href="/Canada" class="dropdown-item text-uppercase ">Study in Canada</a></li>
+                     </ul>
                 </li>
                   <li class="nav-item me-5">
                     <a class="nav-link light text-uppercase p-0" href="/contact">Contact Us</a>
@@ -102,16 +100,9 @@
                       </a>
                     </li>
                     <li class="pe-4">
-                      <a href="#" class="light">
+                      <a href="https://www.instagram.com/edulife_112/" class="light">
                         <svg class="instagram" width="20" height="20">
-                          <use xlink:href="#instagram"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="pe-4">
-                      <a href="#" class="light">
-                        <svg class="twitter" width="20" height="20">
-                          <use xlink:href="#twitter"></use>
+                          <use xlink:href="https://www.instagram.com/edulife_112/"></use>
                         </svg>
                       </a>
                     </li>
@@ -140,11 +131,11 @@
             <div class="col-lg-12" style="text-align: center;">
               <p>
                 <strong class="pb-2 d-block " >
-                  Welcome to Edulife Educational Consultancy,</strong>
+                  Welcome to Edulife Education Consultancy</strong>
                   Your gateway to academic success! We specialize in personalized test preparation 
-                  (IELTS, PTE, TOEFL, SAT), career consulting, and university placement services. 
+                  (IELTS, PTE and TOEFL), career consulting, and university placement services. 
                   Our mission is to guide you toward your dream education in countries like the USA,
-                  UK, New Zealand, Australia, Canada, India, and Bangladesh.
+                  UK, New Zealand, Australia and Canada.
                   Join us on this transformative journey!
               </p>
             </div>
@@ -157,26 +148,72 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="section-header">
-                <h2 class="text-uppercase mb-7 left-pattern">Edulife Education</h2>
+                <h2 class="text-uppercase mb-7 left-pattern">Edulife Education Consultancy</h2>
                 <h3 class="text-uppercase">Message From Founder</h3>
-                <p>
-                  Your gateway to academic success! We specialize in personalized test preparation 
-                  (IELTS, PTE, TOEFL, SAT), career consulting, and university placement services. 
-                  Our mission is to guide you toward your dream education in countries like the USA,
-                  UK, New Zealand, Australia, Canada, India, and Bangladesh. Join us on this transformative journey!
+           <p>
+           Navigating the challenges of studying abroad can be daunting, but our expert guidance aims to make the
+process more manageable. Recognizing the investment of both time and resources from students and
+parents, we view our role as extending beyond merely placing students in institutions. As a certified
+career counselor, I appreciate the pivotal role career counseling plays in shaping a student's future.<br><br>
+
+Our support extends to assisting students in settling into their new countries, aiding them in finding
+part-time work. Our commitment doesn't conclude with placement; we maintain ongoing connections
+with students, addressing any challenges they may encounter during their stay or studies. Throughout
+the entire process, we stay in constant communication with our students, ensuring timely responses to
+all inquiries.<br><br>
+
+Prior to submitting applications, we ensure that students are well-informed about their chosen
+institutions, including costs and program details. Additionally, we facilitate connections between new
+and past students, fostering a supportive community in unfamiliar surroundings.<br><br>
+
+The EEC staff undergoes professional and ethical training, emphasizing transparency in our services. This
+commitment ensures that our students receive the right support at the right time.
               </p>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" style="background-color: none;">
             <div class="col-lg-7 col-md-6 mb-3" id="image_holder_about">
                 <div class="card-item position-relative">
-                  <div class="card border-0">
+                  <div class="card border-0" >
                     <div class="card-image">
-                      <img src="images/post-item2.jpg" alt="" class="img-fluid">
+                      <img src="images/founder.jpg" alt="" class="img-fluid">
+                      <h2 class="text-uppercase" style="text-align:center; margin-right: 4vw; margin-top:2.5vh;">Rupam Yadav</h2>
                     </div>
                   </div>
                 </div>
 
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="column justify-content-center">
+            <div class="col-lg-3 pb-3">
+              
+              <div class="brand-item bg-gray-200">
+                <img src="images/partner1.png" alt="brand">
+              </div>
+              
+            </div>
+            <div class="col-lg-3 pb-3">
+              
+              <div class="brand-item bg-gray-200">
+                <img src="images/partner2.png" alt="brand">
+              </div>
+              
+            </div>
+            <div class="col-lg-3 pb-3">
+              
+              <div class="brand-item bg-gray-200">
+                <img src="images/partner3.png" alt="brand">
+              </div>
+              
+            </div>
+            <div class="col-lg-3 pb-3">
+            
+              <div class="brand-item bg-gray-200">
+                <img src="images/partner4.png" alt="brand">
+              </div>
+             
+            </div>
+          </div>
+        </div>
               </div>
             </div>
           </div>
@@ -192,7 +229,7 @@
                         <i class="bi bi-geo-alt-fill custom-icon"></i>
                             <div class="cta-text">
                                 <h4>Find us</h4>
-                                <span>Dillibazar,Near Citizen bank, Kathmandu, Nepal</span>
+                                <span>Dillibazar (Near Citizen Bank), Kathmandu, Nepal</span>
                             </div>
                         </div>
                     </div>
@@ -201,7 +238,7 @@
                         <i class="bi bi-telephone-fill"></i>
                             <div class="cta-text">
                                 <h4>Contact Number</h4>
-                                <span>+977 9841649592 <br> +977 14517231</span>
+                                <span>+977 14517231</span>
                             </div>
                         </div>
                     </div>
@@ -210,7 +247,7 @@
                         <i class="bi bi-envelope-at-fill"></i>
                             <div class="cta-text">
                                 <h4>Mail us</h4>
-                                <span>rupam@edulife.edu.np</span>
+                                <span>talktoeec@gmail.com</span>
                             </div>
                         </div>
                     </div>
@@ -224,17 +261,16 @@
                                 <a href="/"><img src="images/main-logo.png" class="img-fluid" alt="logo"></a>
                             </div>
                             <div class="footer-text">
-                                <p>Welcome to Edulife Educational Consultancy,
+                                <p>Welcome to Edulife Education Consultancy,
                   your gateway to academic success! We specialize in personalized test preparation 
-                  (IELTS, PTE, TOEFL, SAT), career consulting, and university placement services. 
+                  (IELTS, PTE and TOEFL), career consulting, and university placement services. 
                   Our mission is to guide you toward your dream education in countries like the USA,
-                  UK, New Zealand, Australia, Canada, India, and Bangladesh. Join us on this transformative journey!</p>
+                  UK, New Zealand, Australia and Canada. Join us on this transformative journey!</p>
                             </div>
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
                                 <a href="https://www.facebook.com/Rupamedulife"><i style="margin-left: 0vw;" class="bi bi-facebook"></i></a>
-                                <a href="#"><i class="bi bi-twitter"></i></a>
-                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.instagram.com/edulife_112/"><i class="bi bi-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -246,11 +282,11 @@
                             <ul>
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/aboutUs">About us</a></li>
-                                <li><a href="#">Study Abroad</a></li>
+                                <li><a href="/study_abroad">Study Abroad</a></li>
                                 <li><a href="/contact">Contact US</a></li>
-                                <li><a href="#">Test Preperation</a></li>
-                                <li><a href="#">Career Counseling</a></li>
-                                <li><a href="#">Courses</a></li>
+                                <li><a href="/test_preperation">Test Preperation</a></li>
+                                <li><a href="/counselling">Career Counseling</a></li>
+                                <li><a href="/courses">Courses</a></li>
                             </ul>
                         </div>
                     </div>

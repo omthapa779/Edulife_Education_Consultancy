@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EduLife Education Consultancy | Contact</title>
+    <title>EduLife Education Consultancy | Study in Canada</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <link rel="stylesheet" type="text/css" href="contact_form.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="aos/aos.css">
     <link href="css/date-time-picker-component.min.css" rel="stylesheet">
@@ -70,7 +69,7 @@
               <div class="offcanvas-body">
                 <ul id="navbar" class="navbar-nav text-uppercase justify-content-lg-center justify-content-md-end align-items-center flex-grow-1  text-hover">
                   <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase active p-0" href="/">Home</a>
+                    <a class="nav-link light text-uppercase p-0" href="/">Home</a>
                   </li>
                   <li class="nav-item me-5">
                     <a class="nav-link light text-uppercase p-0" href="/aboutUs">About Us</a>
@@ -129,38 +128,140 @@
         </nav>
       </header>
 
-      <section id="intro2">
+      <section id="intro-responsive">
         <div class="image-holder position-relative">
-          <img src="images/banner-item2.jpg" alt="banner" class="banner-image">
+          <img src="images/canada.jpg" alt="banner" class="banner-image">
         </div>
         <div class="container-lg">
           <div class="banner-content position-absolute" style="align-items: center;" data-aos="fade-up" >
-  
-  
-  <form action="{{ route('contact') }}" method="post" style="margin-top: -10vh;">
-  @csrf
-  <h1 style="text-transform: uppercase;">Contact Us</h1>
-  <p>Please take a moment to get in touch, we will get back to you shortly.</p>
-
-  <div class="column">
-  <label for="the-message">Message</label>
-    <textarea name="message" id="the-message"></textarea>
-    </div>
-  <div class="column">
-    <label for="the-name">Your Name</label>
-    <input type="text" name="name" id="the-name">
-
-    <label for="the-email">Email Address</label>
-    <input type="email" name="email" id="the-email">
-  
-    <input type="submit" value="Send Message">
-  </div>
-</form>
+            <h1 class="banner-title light text-uppercase fw-bold" style="text-align: center;">WHY STUDY IN <br>Canada ?</h1>
           </div>
         </div>
       </section>
       
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in Canada?</h2>
+                <h3 class="text-uppercase">Flexible and high quality education options</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            From elementary to post-secondary studies, Canada is known for offering high-quality education and
+research opportunities. Students can choose from more than 8,000 college and 16,000 university
+programs. 7 Canadian universities are ranked among the top 200 in the world (Times Higher Education,
+2023).
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in Canada?</h2>
+                <h3 class="text-uppercase">Work opportunity</h3>
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            Most international students are eligible to work during their studies for 20 hours per week. They will
+also get a Post-Graduation Work Permit after their studies if they apply to a DLI.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in Canada?</h2>
+                <h3 class="text-uppercase">Affordable tuition and living cost</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            The tuition fees are generally lower than in colleges and universities in Australia, the U.K. and the U.S.<br>
+             
+On average, living costs are around $15,000 per year for university students
+(Universities Canada, 2019).<br>
+Tuition in Quebec<br>
+Starting in 2023, some international students in Quebec could be eligible for lower university tuition.
+Students who qualify for the program will pay the same annual tuition as students from Quebec.<br>
+*Many airlines, bus companies and trains in Canada offer discounts to students.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in Canada?</h2>
+                <h3 class="text-uppercase" id="multi">Multiculturalism</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            Today Canada is home to immigrants from more than 200 countries from various races, religions, and
+cultures. In the first quarter of 2022 itself, the country has homed 113,699 immigrants from all around
+the world, the record highest ever since Canadian history after 1946.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in Canada?</h2>
+                <h3 class="text-uppercase">Co-op Programs</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            International students can leverage co-op programs offered by Canadian colleges and universities. It
+allows them to incorporate their studies with an official paid work term. However, students need to
+apply for a valid work permit except for SW1 applicants. Students’ co-op placement totals 50% or less of
+the program.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
+
       <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">
@@ -202,7 +303,7 @@
                                 <a href="/"><img src="images/main-logo.png" class="img-fluid" alt="logo"></a>
                             </div>
                             <div class="footer-text">
-                                <p>Welcome to Edulife Educational Consultancy,
+                                <p>Welcome to Edulife Education Consultancy,
                   your gateway to academic success! We specialize in personalized test preparation 
                   (IELTS, PTE and TOEFL), career consulting, and university placement services. 
                   Our mission is to guide you toward your dream education in countries like the USA,

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EduLife Education Consultancy | Contact</title>
+    <title>EduLife Education Consultancy | Study in New Zealand</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <link rel="stylesheet" type="text/css" href="contact_form.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="aos/aos.css">
     <link href="css/date-time-picker-component.min.css" rel="stylesheet">
@@ -70,7 +69,7 @@
               <div class="offcanvas-body">
                 <ul id="navbar" class="navbar-nav text-uppercase justify-content-lg-center justify-content-md-end align-items-center flex-grow-1  text-hover">
                   <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase active p-0" href="/">Home</a>
+                    <a class="nav-link light text-uppercase p-0" href="/">Home</a>
                   </li>
                   <li class="nav-item me-5">
                     <a class="nav-link light text-uppercase p-0" href="/aboutUs">About Us</a>
@@ -129,38 +128,114 @@
         </nav>
       </header>
 
-      <section id="intro2">
+      <section id="intro-responsive">
         <div class="image-holder position-relative">
-          <img src="images/banner-item2.jpg" alt="banner" class="banner-image">
+          <img src="images/NewZealand.jpg" alt="banner" class="banner-image">
         </div>
         <div class="container-lg">
           <div class="banner-content position-absolute" style="align-items: center;" data-aos="fade-up" >
-  
-  
-  <form action="{{ route('contact') }}" method="post" style="margin-top: -10vh;">
-  @csrf
-  <h1 style="text-transform: uppercase;">Contact Us</h1>
-  <p>Please take a moment to get in touch, we will get back to you shortly.</p>
-
-  <div class="column">
-  <label for="the-message">Message</label>
-    <textarea name="message" id="the-message"></textarea>
-    </div>
-  <div class="column">
-    <label for="the-name">Your Name</label>
-    <input type="text" name="name" id="the-name">
-
-    <label for="the-email">Email Address</label>
-    <input type="email" name="email" id="the-email">
-  
-    <input type="submit" value="Send Message">
-  </div>
-</form>
+            <h1 class= "banner-title light text-uppercase fw-bold" style="text-align: center;" id="new-zealand-responsiveness">WHY STUDY IN <br>New Zealand ?</h1>
           </div>
         </div>
       </section>
       
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in New Zealand?</h2>
+                <h3 class="text-uppercase">High Quality Education</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            New Zealand's eight universities are ranked in the top 3% in the world. The teaching style offers
+practical, hands-on learning, giving students the skills they need for the future of work. The New Zealand
+Qualifications Framework (NZQF) is a system for acknowledging the level and quality of qualifications
+offered by New Zealand education providers.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in New Zealand?</h2>
+                <h3 class="text-uppercase">Lower tuition fees & living cost</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            While New Zealand’s education system is based heavily on the British one, it comes at a lower cost.
+Tuition fees for a year tend to cost around NZ$25,000 and the living cost is on average NZ$ 20,000 a
+year.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in New Zealand?</h2>
+                <h3 class="text-uppercase">Highest performing graduates</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            New Zealand ranks 7th for highest performing graduates – ahead of the US, Canada and
+England
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in New Zealand?</h2>
+                <h3 class="text-uppercase">Caring for students</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            The New Zealand government’s Code of Practice for the Pastoral Care of International Students sets out
+the fair and ethical practices and support systems the education providers must have before recruiting
+international students. The New Zealand Qualifications Authority (NZQA) ensures all education providers
+are meeting the code’s requirements.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
+
       <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">

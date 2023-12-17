@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EduLife Education Consultancy | Contact</title>
+    <title>EduLife Education Consultancy | Study in Australia</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <link rel="stylesheet" type="text/css" href="contact_form.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="aos/aos.css">
     <link href="css/date-time-picker-component.min.css" rel="stylesheet">
@@ -70,7 +69,7 @@
               <div class="offcanvas-body">
                 <ul id="navbar" class="navbar-nav text-uppercase justify-content-lg-center justify-content-md-end align-items-center flex-grow-1  text-hover">
                   <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase active p-0" href="/">Home</a>
+                    <a class="nav-link light text-uppercase p-0" href="/">Home</a>
                   </li>
                   <li class="nav-item me-5">
                     <a class="nav-link light text-uppercase p-0" href="/aboutUs">About Us</a>
@@ -129,38 +128,136 @@
         </nav>
       </header>
 
-      <section id="intro2">
+      <section id="intro-responsive">
         <div class="image-holder position-relative">
-          <img src="images/banner-item2.jpg" alt="banner" class="banner-image">
+          <img src="images/Australia.jpg" alt="banner" class="banner-image">
         </div>
         <div class="container-lg">
           <div class="banner-content position-absolute" style="align-items: center;" data-aos="fade-up" >
-  
-  
-  <form action="{{ route('contact') }}" method="post" style="margin-top: -10vh;">
-  @csrf
-  <h1 style="text-transform: uppercase;">Contact Us</h1>
-  <p>Please take a moment to get in touch, we will get back to you shortly.</p>
-
-  <div class="column">
-  <label for="the-message">Message</label>
-    <textarea name="message" id="the-message"></textarea>
-    </div>
-  <div class="column">
-    <label for="the-name">Your Name</label>
-    <input type="text" name="name" id="the-name">
-
-    <label for="the-email">Email Address</label>
-    <input type="email" name="email" id="the-email">
-  
-    <input type="submit" value="Send Message">
-  </div>
-</form>
+            <h1 class="banner-title light text-uppercase fw-bold" style="text-align: center;">WHY STUDY IN <br>Australia ?</h1>
           </div>
         </div>
       </section>
       
-      
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in Australia?</h2>
+                <h3 class="text-uppercase">Global Recognition</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            Graduates from Australian schools are highly sought after due to the impressive international reputation
+of the Australian education system. Australian universities rank highly on several parameters like
+education quality, global reputation, and student satisfaction. Eight Australian universities placed in the
+top 100 in the latest QS World University Rankings.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in Australia?</h2>
+                <h3 class="text-uppercase">Cost of Living</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+Living expenses and tuition costs are considerably lower in Australia than they are in the United States
+and United Kingdom. International students can work part-time while they study, allowing them to
+offset their living costs. The schools also offer a range of scholarships, which helps to lower the cost of
+studying for international students.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in Australia?</h2>
+                <h3 class="text-uppercase">Work while you study</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            International students are allowed to work up to 20 hours per week while studying in Australia and full-
+time during vacations. This is a great opportunity for those who want to earn money to offset living
+expenses during their stay, and for students who want to gain work experience in their field of interest
+while they study.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in Australia?</h2>
+                <h3 class="text-uppercase">Post study work rights</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            The country offers a Temporary Graduate Visa (subclass 485) that allows overseas students to stay in
+Australia and continue working once they graduate. Students can work full time during their graduate
+visa.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in Australia?</h2>
+                <h3 class="text-uppercase">Strong in global research</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            Australian universities are strong in research, excelling in areas such as arts and humanities, education
+and sciences. Australia is also a proud contributor to global research, credited for many important
+discoveries, such as penicillin, IVF and wi-fi.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">

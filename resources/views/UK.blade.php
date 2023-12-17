@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EduLife Education Consultancy | Contact</title>
+    <title>EduLife Education Consultancy | Study in UK</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <link rel="stylesheet" type="text/css" href="contact_form.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="aos/aos.css">
     <link href="css/date-time-picker-component.min.css" rel="stylesheet">
@@ -70,7 +69,7 @@
               <div class="offcanvas-body">
                 <ul id="navbar" class="navbar-nav text-uppercase justify-content-lg-center justify-content-md-end align-items-center flex-grow-1  text-hover">
                   <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase active p-0" href="/">Home</a>
+                    <a class="nav-link light text-uppercase p-0" href="/">Home</a>
                   </li>
                   <li class="nav-item me-5">
                     <a class="nav-link light text-uppercase p-0" href="/aboutUs">About Us</a>
@@ -129,38 +128,139 @@
         </nav>
       </header>
 
-      <section id="intro2">
+      <section id="intro3">
         <div class="image-holder position-relative">
-          <img src="images/banner-item2.jpg" alt="banner" class="banner-image">
+          <img src="images/UK.jpg" alt="banner" class="banner-image">
         </div>
         <div class="container-lg">
           <div class="banner-content position-absolute" style="align-items: center;" data-aos="fade-up" >
-  
-  
-  <form action="{{ route('contact') }}" method="post" style="margin-top: -10vh;">
-  @csrf
-  <h1 style="text-transform: uppercase;">Contact Us</h1>
-  <p>Please take a moment to get in touch, we will get back to you shortly.</p>
-
-  <div class="column">
-  <label for="the-message">Message</label>
-    <textarea name="message" id="the-message"></textarea>
-    </div>
-  <div class="column">
-    <label for="the-name">Your Name</label>
-    <input type="text" name="name" id="the-name">
-
-    <label for="the-email">Email Address</label>
-    <input type="email" name="email" id="the-email">
-  
-    <input type="submit" value="Send Message">
-  </div>
-</form>
+            <h1 class="banner-title light text-uppercase fw-bold" style="text-align: center;">WHY STUDY <br> IN UK ?</h1>
           </div>
         </div>
       </section>
       
-      
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in UK?</h2>
+                <h3 class="text-uppercase">High quality education</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+                UK universities have an impressive international reputation and rank among the best in the world.
+Research carried out by UK universities also impacts our lives every day, and is internationally renowned
+for its excellence. Universities have a centuries-old history in Britain, with Oxford and Cambridge both
+having been founded over 800 years ago!
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="padding-medium bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in UK?</h2>
+                <h3 class="text-uppercase">High standards of teaching</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            UK universities are inspected regularly by the Quality Assurance Agency for Higher Education to ensure
+that they maintain the high standards of learning that are expected. The student will get the opportunity
+to be taught by the world’s leading academics and to be creative and develop skill sets and confidence.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-medium bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in UK?</h2>
+                <h3 class="text-uppercase">Shorter courses</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            Most undergraduate courses in the UK take three years to complete, and shorter courses means a
+quicker graduation and less money spent on tuition and living expenses. A master’s degree usually takes
+a year to finish.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="padding-medium bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in UK?</h2>
+                <h3 class="text-uppercase">Scholarships and funding</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            All UK universities have multiple scholarship opportunities for students each academic year. Whether
+you have outstanding academic achievement or need that extra support to get through the academic
+year, universities will try their best to support you via funding (if eligible).
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="padding-large bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in UK?</h2>
+                <h3 class="text-uppercase">Develop excellent language skills</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            The English language is of crucial importance in today’s global business arena. Employers want people
+with a grasp on English and there is no better way for you to learn English than to learn it in the country
+of its origin. You can immerse yourself and learn to live, work, and think in the English language,
+enhancing your employment prospects.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">

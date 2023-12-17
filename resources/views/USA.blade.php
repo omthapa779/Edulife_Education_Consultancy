@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EduLife Education Consultancy | Contact</title>
+    <title>EduLife Education Consultancy | Study in USA</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <link rel="stylesheet" type="text/css" href="contact_form.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="aos/aos.css">
     <link href="css/date-time-picker-component.min.css" rel="stylesheet">
@@ -70,7 +69,7 @@
               <div class="offcanvas-body">
                 <ul id="navbar" class="navbar-nav text-uppercase justify-content-lg-center justify-content-md-end align-items-center flex-grow-1  text-hover">
                   <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase active p-0" href="/">Home</a>
+                    <a class="nav-link light text-uppercase p-0" href="/">Home</a>
                   </li>
                   <li class="nav-item me-5">
                     <a class="nav-link light text-uppercase p-0" href="/aboutUs">About Us</a>
@@ -129,38 +128,115 @@
         </nav>
       </header>
 
-      <section id="intro2">
+      <section id="intro3">
         <div class="image-holder position-relative">
-          <img src="images/banner-item2.jpg" alt="banner" class="banner-image">
+          <img src="images/USA.jpg" alt="banner" class="banner-image">
         </div>
         <div class="container-lg">
           <div class="banner-content position-absolute" style="align-items: center;" data-aos="fade-up" >
-  
-  
-  <form action="{{ route('contact') }}" method="post" style="margin-top: -10vh;">
-  @csrf
-  <h1 style="text-transform: uppercase;">Contact Us</h1>
-  <p>Please take a moment to get in touch, we will get back to you shortly.</p>
-
-  <div class="column">
-  <label for="the-message">Message</label>
-    <textarea name="message" id="the-message"></textarea>
-    </div>
-  <div class="column">
-    <label for="the-name">Your Name</label>
-    <input type="text" name="name" id="the-name">
-
-    <label for="the-email">Email Address</label>
-    <input type="email" name="email" id="the-email">
-  
-    <input type="submit" value="Send Message">
-  </div>
-</form>
+            <h1 class="banner-title light text-uppercase fw-bold" style="text-align: center;">WHY STUDY <br> IN USA ?</h1>
           </div>
         </div>
       </section>
       
-      
+      <section id="about" class="padding-small bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in USA?</h2>
+                <h3 class="text-uppercase">Quality of Education</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            American universities are among the top-ranked institutions in the world and known globally for their
+reputation. As per the QS World University Ranking 2022, 22 of the top 100 universities are from the US.
+
+Similarly, Times Higher Education Ranking has also ranked eight of the American universities in its top 10
+list of universities.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="padding-medium bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in USA?</h2>
+                <h3 class="text-uppercase">Flexible courses</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            Another big reason for international students to study in the U.S. is the large variety of courses and
+programs and the flexibility offered, such as allowing undergraduate students to declare their major at
+the end of the second year. American universities and colleges offer a myriad of courses and
+programs to choose from.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-medium bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in USA?</h2>
+                <h3 class="text-uppercase">Cultural diversity</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            The students come from different regions of the world thereby giving them rich and stimulating
+university experience.. Being home to people from all over the world, studying in the US, students will
+have the chance to live, work, and learn with diverse groups of people, giving them valuable teamwork
+experience that employers value in an increasingly globalized world.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="padding-medium bg-gray-200">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-header">
+                <h2 class="text-uppercase mb-7 left-pattern">Why Study in USA?</h2>
+                <h3 class="text-uppercase">Cutting-edge facilities</h3>
+               
+              </div>
+            </div>
+            <div class="col-lg-6">
+            <p>
+            Many US universities and colleges have highly advanced research laboratories, manufacturing
+workshops, and more, which allow you to take part in groundbreaking research and create innovative
+new products.
+              </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">

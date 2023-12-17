@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EduLife Education Consultancy | Contact</title>
+    <title>EduLife Education Consultancy | Study Abroad</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <link rel="stylesheet" type="text/css" href="contact_form.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="aos/aos.css">
     <link href="css/date-time-picker-component.min.css" rel="stylesheet">
@@ -70,7 +69,7 @@
               <div class="offcanvas-body">
                 <ul id="navbar" class="navbar-nav text-uppercase justify-content-lg-center justify-content-md-end align-items-center flex-grow-1  text-hover">
                   <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase active p-0" href="/">Home</a>
+                    <a class="nav-link light text-uppercase p-0" href="/">Home</a>
                   </li>
                   <li class="nav-item me-5">
                     <a class="nav-link light text-uppercase p-0" href="/aboutUs">About Us</a>
@@ -131,36 +130,79 @@
 
       <section id="intro2">
         <div class="image-holder position-relative">
-          <img src="images/banner-item2.jpg" alt="banner" class="banner-image">
+          <img src="images/banner-item3.jpg" alt="banner" class="banner-image">
         </div>
         <div class="container-lg">
           <div class="banner-content position-absolute" style="align-items: center;" data-aos="fade-up" >
-  
-  
-  <form action="{{ route('contact') }}" method="post" style="margin-top: -10vh;">
-  @csrf
-  <h1 style="text-transform: uppercase;">Contact Us</h1>
-  <p>Please take a moment to get in touch, we will get back to you shortly.</p>
-
-  <div class="column">
-  <label for="the-message">Message</label>
-    <textarea name="message" id="the-message"></textarea>
-    </div>
-  <div class="column">
-    <label for="the-name">Your Name</label>
-    <input type="text" name="name" id="the-name">
-
-    <label for="the-email">Email Address</label>
-    <input type="email" name="email" id="the-email">
-  
-    <input type="submit" value="Send Message">
-  </div>
-</form>
+            <h1 class="banner-title light text-uppercase fw-bold" style="text-align: center;">Study Abroad</h1>
+            <div class="col-lg-12" style="text-align: center;">
+              <p>
+              Edulife Education Consultancy, with over a decade of experience,
+               is your trusted partner for international education. Our dedicated team 
+               simplifies the journey, guiding you through every step as you prepare to 
+               study in Australia, the USA, the UK, New Zealand and Canada.
+              Since our establishment in 2019, EduLife has been a reliable source for students 
+              pursuing academic excellence globally.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       
-      
+      <section id="brand-collection" class="padding-small overflow-hidden">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row justify-content-between">
+          <div class="section-header text-uppercase" style="margin-bottom: 10vh">
+              <h2 class="left-pattern">Study Abroad</h2>
+              <h3>Countries</h3>
+            </div>
+            <div class="col-lg-3 pb-3">
+              <a href="/USA">
+              <div class="brand-item bg-gray-200">
+                <img src="images/brand-item1.png" alt="brand">
+              </div>
+              </a>
+            </div>
+            <div class="col-lg-3 pb-3">
+            <a href="/UK">
+              <div class="brand-item bg-gray-200">
+                <img src="images/brand-item2.png" alt="brand">
+              </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 pb-3">
+            <a href="/Australia">
+              <div class="brand-item bg-gray-200">
+                <img src="images/brand-item3.png" alt="brand">
+              </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 pb-3">
+            <a href="/NewZealand">
+              <div class="brand-item bg-gray-200">
+                <img src="images/brand-item4.png" alt="brand">
+              </div>
+            </a>
+            </div>
+            <div class="col-lg-3 pb-3">
+            <a href="/Canada">
+              <div class="brand-item bg-gray-200">
+                <img src="images/brand-item5.png" alt="brand">
+              </div>
+</a>
+            </div>
+            <div class="col-lg-3 pb-3">
+            <a href="/study_abroad">
+              <div class="brand-item bg-gray-200">
+                <a href="/"><img src="images/brand-item8.png" alt="brand"></a>
+              </div>
+</a>
+            </div>
+          </div>
+        </div>
+      </section>
       <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">

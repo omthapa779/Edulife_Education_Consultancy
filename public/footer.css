@@ -134,7 +134,7 @@ padding: 25px 0;
 font-size: 1rem;
 color: rgb(255, 255, 255);
 text-align: center;
-width: 90vw;
+width: 60vw;
 }
 .copyright-text span {
   color: #520cd3;
@@ -153,4 +153,14 @@ color: #520cd3;
 .footer-menu li a {
 font-size: 14px;
 color: #878787;
+}
+.footer-widget iframe{
+  width: 30vw;
+  height: 50vh;
+}
+@media (max-width: 999px) {
+   .footer-widget iframe{
+    width: 92vw;
+    height: 70vh;
+   }
 }
