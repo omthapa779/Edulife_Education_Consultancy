@@ -41,7 +41,7 @@ return [
     ],
     'encryption' => env('MAIL_ENCRYPTION', 'ssl'),
     'username' => env('MAIL_USERNAME', 'omthapa781@gmail.com'),
-    'password' => env('MAIL_PASSWORD', 'O@@mth$$apa100$'),
+    'password' => env('MAIL_PASSWORD', ''),
 
 
     'views' => [
