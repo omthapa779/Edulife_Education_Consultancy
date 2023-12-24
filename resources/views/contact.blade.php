@@ -103,14 +103,7 @@
                     <li class="pe-4">
                       <a href="https://www.instagram.com/edulife_112/" class="light">
                         <svg class="instagram" width="20" height="20">
-                          <use xlink:href="https://www.instagram.com/edulife_112/"></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="pe-4">
-                      <a href="#" class="light">
-                        <svg class="twitter" width="20" height="20">
-                          <use xlink:href="#twitter"></use>
+                          <use xlink:href="#instagram"></use>
                         </svg>
                       </a>
                     </li>
@@ -129,33 +122,26 @@
         </nav>
       </header>
 
-      <section id="intro2">
+      <section id="intro">
         <div class="image-holder position-relative">
-          <img src="images/banner-item2.jpg" alt="banner" class="banner-image">
+          <img src="images/banner-item2.jpg" alt="banner" style="opacity: 90%;" class="banner-image">
         </div>
         <div class="container-lg">
           <div class="banner-content position-absolute" style="align-items: center;" data-aos="fade-up" >
-  
-  
-  <form action="{{ route('contact') }}" method="post" style="margin-top: -10vh;">
-  @csrf
-  <h1 style="text-transform: uppercase;">Contact Us</h1>
-  <p>Please take a moment to get in touch, we will get back to you shortly.</p>
-
-  <div class="column">
-  <label for="the-message">Message</label>
-    <textarea name="message" id="the-message"></textarea>
-    </div>
-  <div class="column">
-    <label for="the-name">Your Name</label>
-    <input type="text" name="name" id="the-name">
-
-    <label for="the-email">Email Address</label>
-    <input type="email" name="email" id="the-email">
-  
-    <input type="submit" value="Send Message">
-  </div>
-</form>
+            <h1 class="banner-title light text-uppercase fw-bold" style="text-align: center;">Contact US</h1>
+            <a href="mailto:talktoeec@gmail.com" id="email-contact" class="btn-slide btn-medium btn-light hover-slide-right text-uppercase mt-5">
+              <span>Email / Gmail</span>
+            </a>
+            <a href="https://m.me/Rupamedulife" class="btn-slide btn-medium btn-light hover-slide-right text-uppercase mt-5">
+              <span>Facebook Messenger</span>
+            </a>
+            <a href="https://www.instagram.com/edulife_112/" class="btn-slide btn-medium btn-light hover-slide-right text-uppercase mt-5">
+              <span>Instagram</span>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=977984-1649592" class="btn-slide btn-medium btn-light hover-slide-right text-uppercase mt-5">
+              <span>Whatsapp</span>
+            </a>
+          </div>
           </div>
         </div>
       </section>
@@ -247,7 +233,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-center">
                         <div class="copyright-text">
-                            <h1>SITE CREATED BY <span>Dhiru&OHMs<span></h1>
+                             <h1>SITE CREATED BY <span><a href="https://www.instagram.com/tilasmi__/">Tilasmi Codes</a><span></h1>
                         </div>
                     </div>
                    

@@ -102,7 +102,7 @@
                     <li class="pe-4">
                       <a href="https://www.instagram.com/edulife_112/" class="light">
                         <svg class="instagram" width="20" height="20">
-                          <use xlink:href="https://www.instagram.com/edulife_112/"></use>
+                          <use xlink:href="#instagram"></use>
                         </svg>
                       </a>
                     </li>
@@ -306,7 +306,7 @@ commitment ensures that our students receive the right support at the right t
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-center">
                         <div class="copyright-text">
-                            <h1>SITE CREATED BY <span>Dhiru&OHMs<span></h1>
+                            <h1>SITE CREATED BY <span><a href="https://www.instagram.com/tilasmi__/">Tilasmi Codes</a><span></h1>
                         </div>
                     </div>
                    
